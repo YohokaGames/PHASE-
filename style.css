@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: rgb(0, 238, 255);
+}
+
+.banner {
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 157));
+  padding: 40px;
+  text-align: center;
+}
+
+.main-icon {
+  width: 550
+
+  height: 550
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: white;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.bottom-icon {
+  width: 350px;
+  display: block;
+  margin: 40px auto 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.phase-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #ff4d4d, #c28cff);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.phase-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
